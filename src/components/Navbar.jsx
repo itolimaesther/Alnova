@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-// import addIcon from "../assets/add.svg";
 import logoImg from "../assets/logo.png";
 
 const navLinks = [

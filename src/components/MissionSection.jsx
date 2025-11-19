@@ -4,18 +4,6 @@ import settingsIcon from "../assets/settings.svg";
 import processorIcon from "../assets/processor.svg";
 import shieldIcon from "../assets/shield-tick.svg";
 
-// Card gradient backgrounds
-// const gradients = [
-//   "bg-[linear-gradient(43.5deg,_#011E40_42.65%,_#014088_59.45%)]",
-//   "bg-[linear-gradient(0.85deg,_#460050_29.2%,_#630071_46.57%)]",
-//   "bg-[linear-gradient(314.23deg,_#026813_37.39%,_#003B0A_53.62%)]",
-// ];
-// All hover gradients are horizontal (90deg)
-// const hoverGradients = [
-//   "bg-[linear-gradient(90deg,_#011E40_0%,_#014088_100%)]",
-//   "bg-[linear-gradient(90deg,_#460050_0%,_#630071_100%)]",
-//   "bg-[linear-gradient(90deg,_#026813_0%,_#003B0A_100%)]",
-// ];
 
 const icons = [processorIcon, settingsIcon, shieldIcon];
 

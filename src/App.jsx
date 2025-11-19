@@ -18,7 +18,7 @@ function App() {
   return (
     <div>
       <Navbar />
-      <main className='pt-20'>
+      <main className='pt-2 lg:pt-18'>
         <Hero />
         <MissionSection />
         <VisionSection />

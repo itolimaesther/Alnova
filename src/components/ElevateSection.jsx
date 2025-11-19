@@ -1,5 +1,5 @@
 import React from "react";
-import elevateImg from "../assets/elevate.png"; // Replace with your image
+import elevateImg from "../assets/elevate.png";
 
 const listItems = [
   {

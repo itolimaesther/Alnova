@@ -1,7 +1,7 @@
 import React from "react";
 import comSvg from "../assets/com.svg";
 import bgCommunity from "../assets/comm.png";
-import community from "../assets/community.png"; // Placeholder for community image
+import community from "../assets/community.png";
 import starSvg from "../assets/star.svg";
 
 const CommunitySection = () => (
