@@ -4,7 +4,7 @@ import React from "react";
 const SocialIcon = ({ children, href }) => (
   <a
     href={href}
-    className='w-8 h-8 flex items-center justify-center text-[#0F0F0F] hover:text-[#F05658] transition mr-2 last:mr-0'
+    className='w-8 h-8 flex items-center justify-center text-[#4D5761] hover:text-[#F05658] transition mr-2 last:mr-0'
     target='_blank'
     rel='noopener noreferrer'
   >
@@ -46,125 +46,237 @@ const Footer = () => {
       {/* Second row: 5 columns of links */}
       <div className='grid grid-cols-2 md:grid-cols-5 gap-6 mb-8'>
         <div>
-          <h3 className='font-semibold mb-2 text-[#0F0F0F]'>Product</h3>
+          <h3 className='font-semibold mb-2 text-[#0F0F0F] text-xs'>
+            Categories
+          </h3>
           <ul className='space-y-1 text-base'>
             <li>
-              <a href='#' className='hover:text-[#F05658] text-[#4D5761]'>
-                Features
+              <a
+                href='#'
+                className='text-[#0F0F0F] hover:text-[#0F0F0F] hover:underline hover:decoration-[#0F0F0F] decoration-[#0F0F0F] text-[18px]'
+              >
+                Graphic Design
               </a>
             </li>
             <li>
-              <a href='#' className='hover:text-[#F05658]'>
-                Pricing
+              <a
+                href='#'
+                className='text-[#0F0F0F] hover:text-[#0F0F0F] hover:underline hover:decoration-[#0F0F0F] decoration-[#0F0F0F] text-[18px]'
+              >
+                UI/UX Design
               </a>
             </li>
             <li>
-              <a href='#' className='hover:text-blue-600'>
-                Integrations
+              <a
+                href='#'
+                className='text-[#0F0F0F] hover:text-[#0F0F0F] hover:underline hover:decoration-[#0F0F0F] decoration-[#0F0F0F] text-[18px]'
+              >
+                Web Development
               </a>
             </li>
             <li>
-              <a href='#' className='hover:text-blue-600'>
-                Demo
+              <a
+                href='#'
+                className='text-[#0F0F0F] hover:text-[#0F0F0F] hover:underline hover:decoration-[#0F0F0F] decoration-[#0F0F0F] text-[18px]'
+              >
+                Mobile App Development
+              </a>
+            </li>
+            <li>
+              <a
+                href='#'
+                className='text-[#0F0F0F] hover:text-[#0F0F0F] hover:underline hover:decoration-[#0F0F0F] decoration-[#0F0F0F] text-[18px]'
+              >
+                Programming and Tech
+              </a>
+            </li>
+            <li>
+              <a
+                href='#'
+                className='text-[#0F0F0F] hover:text-[#0F0F0F] hover:underline hover:decoration-[#0F0F0F] decoration-[#0F0F0F] text-[18px]'
+              >
+                Video Editing
+              </a>
+            </li>
+            <li>
+              <a
+                href='#'
+                className='text-[#0F0F0F] hover:text-[#0F0F0F] hover:underline hover:decoration-[#0F0F0F] decoration-[#0F0F0F] text-[18px]'
+              >
+                Social Media Design
+              </a>
+            </li>
+            <li>
+              <a
+                href='#'
+                className='text-[#0F0F0F] hover:text-[#0F0F0F] hover:underline hover:decoration-[#0F0F0F] decoration-[#0F0F0F] text-[18px]'
+              >
+                Social Media Management
+              </a>
+            </li>
+            <li>
+              <a
+                href='#'
+                className='text-[#0F0F0F] hover:text-[#0F0F0F] hover:underline hover:decoration-[#0F0F0F] decoration-[#0F0F0F] text-[18px]'
+              >
+                Presentation Design
+              </a>
+            </li>
+            <li>
+              <a
+                href='#'
+                className='text-[#0F0F0F] hover:text-[#0F0F0F] hover:underline hover:decoration-[#0F0F0F] decoration-[#0F0F0F] text-[18px]'
+              >
+                Illustration & Digital Art
               </a>
             </li>
           </ul>
         </div>
         <div>
-          <h3 className='font-semibold mb-2 text-[#0F0F0F]'>Company</h3>
+          <h3 className='font-semibold mb-2 text-[#0F0F0F] text-xs'>Company</h3>
           <ul className='space-y-1 text-sm'>
             <li>
-              <a href='#' className='hover:text-[#F05658] text-[#4D5761]'>
+              <a
+                href='#'
+                className='text-[#0F0F0F] hover:text-[#0F0F0F] hover:underline hover:decoration-[#0F0F0F] decoration-[#0F0F0F] text-[18px]'
+              >
                 About
               </a>
             </li>
             <li>
-              <a href='#' className='hover:text-blue-600'>
+              <a
+                href='#'
+                className='text-[#0F0F0F] hover:text-[#0F0F0F] hover:underline hover:decoration-[#0F0F0F] decoration-[#0F0F0F] text-[18px]'
+              >
                 Careers
               </a>
             </li>
             <li>
-              <a href='#' className='hover:text-blue-600'>
+              <a
+                href='#'
+                className='text-[#0F0F0F] hover:text-[#0F0F0F] hover:underline hover:decoration-[#0F0F0F] decoration-[#0F0F0F] text-[18px]'
+              >
                 Press
               </a>
             </li>
             <li>
-              <a href='#' className='hover:text-blue-600'>
+              <a
+                href='#'
+                className='text-[#0F0F0F] hover:text-[#0F0F0F] hover:underline hover:decoration-[#0F0F0F] decoration-[#0F0F0F] text-[18px]'
+              >
                 News
               </a>
             </li>
           </ul>
         </div>
         <div>
-          <h3 className='font-semibold mb-2 text-[#0F0F0F]'>Resources</h3>
+          <h3 className='font-semibold mb-2 text-[#0F0F0F] text-xs'>
+            Resources
+          </h3>
           <ul className='space-y-1 text-sm'>
             <li>
-              <a href='#' className='hover:text-[#F05658] text-[#4D5761]'>
+              <a
+                href='#'
+                className='text-[#0F0F0F] hover:text-[#0F0F0F] hover:underline hover:decoration-[#0F0F0F] decoration-[#0F0F0F] text-[18px]'
+              >
                 Docs
               </a>
             </li>
             <li>
-              <a href='#' className='hover:text-blue-600'>
+              <a
+                href='#'
+                className='text-[#0F0F0F] hover:text-[#0F0F0F] hover:underline hover:decoration-[#0F0F0F] decoration-[#0F0F0F] text-[18px]'
+              >
                 Blog
               </a>
             </li>
             <li>
-              <a href='#' className='hover:text-blue-600'>
+              <a
+                href='#'
+                className='text-[#0F0F0F] hover:text-[#0F0F0F] hover:underline hover:decoration-[#0F0F0F] decoration-[#0F0F0F] text-[18px]'
+              >
                 Guides
               </a>
             </li>
             <li>
-              <a href='#' className='hover:text-blue-600'>
+              <a
+                href='#'
+                className='text-[#0F0F0F] hover:text-[#0F0F0F] hover:underline hover:decoration-[#0F0F0F] decoration-[#0F0F0F] text-[18px]'
+              >
                 Help Center
               </a>
             </li>
           </ul>
         </div>
         <div>
-          <h3 className='font-semibold mb-2 text-[#0F0F0F]'>Legal</h3>
+          <h3 className='font-semibold mb-2 text-[#0F0F0F] text-xs'>Legal</h3>
           <ul className='space-y-1 text-sm'>
             <li>
-              <a href='#' className='hover:text-[#F05658] text-[#4D5761]'>
+              <a
+                href='#'
+                className='text-[#0F0F0F] hover:text-[#0F0F0F] hover:underline hover:decoration-[#0F0F0F] decoration-[#0F0F0F] text-[18px]'
+              >
                 Privacy
               </a>
             </li>
             <li>
-              <a href='#' className='hover:text-blue-600'>
+              <a
+                href='#'
+                className='text-[#0F0F0F] hover:text-[#0F0F0F] hover:underline hover:decoration-[#0F0F0F] decoration-[#0F0F0F] text-[18px]'
+              >
                 Terms
               </a>
             </li>
             <li>
-              <a href='#' className='hover:text-blue-600'>
+              <a
+                href='#'
+                className='text-[#0F0F0F] hover:text-[#0F0F0F] hover:underline hover:decoration-[#0F0F0F] decoration-[#0F0F0F] text-[18px]'
+              >
                 Security
               </a>
             </li>
             <li>
-              <a href='#' className='hover:text-blue-600'>
+              <a
+                href='#'
+                className='text-[#0F0F0F] hover:text-[#0F0F0F] hover:underline hover:decoration-[#0F0F0F] decoration-[#0F0F0F] text-[18px]'
+              >
                 SLA
               </a>
             </li>
           </ul>
         </div>
         <div>
-          <h3 className='font-semibold mb-2 text-[#0F0F0F]'>Contact</h3>
+          <h3 className='font-semibold mb-2 text-[#0F0F0F] text-xs'>Contact</h3>
           <ul className='space-y-1 text-sm'>
             <li>
-              <a href='#' className='hover:text-[#F05658] text-[#4D5761]'>
+              <a
+                href='#'
+                className='text-[#0F0F0F] hover:text-[#0F0F0F] hover:underline hover:decoration-[#0F0F0F] decoration-[#0F0F0F] text-[18px]'
+              >
                 Support
               </a>
             </li>
             <li>
-              <a href='#' className='hover:text-blue-600'>
+              <a
+                href='#'
+                className='text-[#0F0F0F] hover:text-[#0F0F0F] hover:underline hover:decoration-[#0F0F0F] decoration-[#0F0F0F] text-[18px]'
+              >
                 Sales
               </a>
             </li>
             <li>
-              <a href='#' className='hover:text-blue-600'>
+              <a
+                href='#'
+                className='text-[#0F0F0F] hover:text-[#0F0F0F] hover:underline hover:decoration-[#0F0F0F] decoration-[#0F0F0F] text-[18px]'
+              >
                 Partners
               </a>
             </li>
             <li>
-              <a href='#' className='hover:text-blue-600'>
+              <a
+                href='#'
+                className='text-[#0F0F0F] hover:text-[#0F0F0F] hover:underline hover:decoration-[#0F0F0F] decoration-[#0F0F0F] text-[18px]'
+              >
                 Community
               </a>
             </li>

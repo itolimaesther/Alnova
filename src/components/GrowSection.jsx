@@ -82,6 +82,30 @@ const ExploreFreeResourcesButton = () => {
   );
 };
 
+const RegisterForFreeResourcesButton = () => {
+  const [hovered, setHovered] = React.useState(false);
+  return (
+    <button
+      className='flex text-[15px] items-center justify-center px-6 py-2 bg-[#F3F4F6] text-[#F05658] font-semibold rounded-[46px] shadow hover:bg-[#e5e7eb] transition w-full sm:w-auto relative overflow-hidden'
+      onMouseEnter={() => setHovered(true)}
+      onMouseLeave={() => setHovered(false)}
+      style={{ minWidth: 200 }}
+    >
+      <span className='transition-all duration-300'>
+        Register for free Resources
+      </span>
+      <span
+        className={`transition-all duration-300 ml-2 flex items-center ${
+          hovered ? "opacity-100 translate-x-0" : "opacity-0 translate-x-3"
+        }`}
+        style={{ pointerEvents: "none" }}
+      >
+        <img src={addIcon} alt='add' className='w-5 h-5' />
+      </span>
+    </button>
+  );
+};
+
 const GrowSection = () => (
   <section className='w-full py-12 px-4 md:px-8 lg:px-[100px] bg-white'>
     <h2 className='text-lg sm:text-xl md:text-3xl font-bold mb-2 text-center'>
@@ -123,14 +147,7 @@ const GrowSection = () => (
         </div>
         <div className='flex flex-col sm:flex-row gap-4 w-full'>
           <ExploreFreeResourcesButton />
-          <button className='flex text-[15px] items-center justify-center px-6 py-2 bg-[#F3F4F6] text-[#F05658] font-semibold rounded-[46px] shadow hover:bg-[#e5e7eb] transition w-full sm:w-auto'>
-            Register for free Resources
-            <img
-              src={addIcon}
-              alt='add'
-              className='ml-2 w-5 h-5 text-[#F05658]'
-            />
-          </button>
+          <RegisterForFreeResourcesButton />
         </div>
       </div>
     </div>

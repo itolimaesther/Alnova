@@ -66,7 +66,7 @@ const MissionCard = ({
       </div>
       {/* Bottom: heading (if not expanded) */}
       {!expanded && (
-        <div className='w-full flex flex-col items-center px-6 pb-8 transition-all duration-300 mt-auto mb-4'>
+        <div className='w-full flex flex-col items-center px-6 pb-8 transition-all duration-300 mt-auto mb-4 '>
           <h3
             className='text-[40px] font-bold text-white mb-1 text-center'
             style={{ fontFamily: "Mali, sans-serif" }}

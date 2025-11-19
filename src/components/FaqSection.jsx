@@ -5,29 +5,85 @@ const tabs = [
   {
     label: "General",
     faqs: [
-      { q: "What is Alnova?", a: "Alnova is a platform for..." },
-      { q: "How do I sign up?", a: "Click the sign up button..." },
+      {
+        q: "How do I get paid as a freelancer?",
+        a: "Payments are processed through secure channels like PayPal, bank transfers or other supported methods.",
+      },
+      {
+        q: "Are there transaction fees?",
+        a: "Yes, Allnovas charges a small service fee for each transaction. Details can be found in our terms of service.",
+      },
+      {
+        q: "How do I deposit funds as a client?",
+        a: "You can deposit funds securely via supported payment methods on your dashboard.",
+      },
+      {
+        q: "What happens if a payment dispute arises?",
+        a: "Our team will mediate disputes to ensure a fair resolution based on our terms and conditions.",
+      },
     ],
   },
   {
     label: "Freelancing",
     faqs: [
-      { q: "Is there a free plan?", a: "Yes, we offer a free plan..." },
-      { q: "How do I upgrade?", a: "Go to your account settings..." },
+      {
+        q: "How do I create an account?",
+        a: "Click “Sign Up”, choose your role (freelancer or client) and complete the registration process.",
+      },
+      {
+        q: "Can I switch between being a client and a freelancer?",
+        a: "Yes, you can switch roles by updating your profile settings.",
+      },
+      {
+        q: "What if I forget my password?",
+        a: "Click “Forgot Password” on the login page and follow the instructions to reset it.",
+      },
+      {
+        q: "How do I update my profile?",
+        a: "Go to “Account Settings” and update your personal and professional details.",
+      },
     ],
   },
   {
     label: "Account",
     faqs: [
-      { q: "Is my data safe?", a: "We use industry standards..." },
-      { q: "Can I delete my data?", a: "Yes, you can delete anytime..." },
+      {
+        q: "What is Allnovas about?",
+        a: "Allnovas is a platform designed to connect skilled freelancers with clients seeking top-notch design, tech, and creative services.",
+      },
+      {
+        q: "Who can use Allnovas?",
+        a: "Anyone! Whether you're a freelancer looking to showcase your skills or a client in need of quality services, Allnovas is for you.",
+      },
+      {
+        q: "How does Allnovas ensure quality?",
+        a: "We vet freelancers and provide tools like ratings, reviews and milestone tracking to maintain service quality.",
+      },
+      {
+        q: "Is Allnovas available worldwide?",
+        a: "Yes, freelancers and clients from around the globe can use our platform.",
+      },
     ],
   },
   {
     label: "Transfer",
     faqs: [
-      { q: "How do I contact support?", a: "Email us at support@alnova.com" },
-      { q: "What is the response time?", a: "We reply within 24 hours." },
+      {
+        q: "How do I become a freelancer on Allnovas?",
+        a: "Sign up, create a professional profile and showcase your skills by creating gigs that highlight your expertise.",
+      },
+      {
+        q: "How do I get clients?",
+        a: "Clients can find your gigs through searches or you can apply for job postings relevant to your skills.",
+      },
+      {
+        q: "Can I work on multiple projects at once?",
+        a: "Yes, you can manage multiple projects simultaneously, provided you meet deadlines and maintain quality.",
+      },
+      {
+        q: "How are freelancers rated?",
+        a: "Freelancers are rated based on clients' feedback, project delivery time and quality of work.",
+      },
     ],
   },
 ];

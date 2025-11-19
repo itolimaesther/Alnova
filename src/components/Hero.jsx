@@ -1,47 +1,54 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import left1 from "../assets/anime1.svg"; // Replace with your image paths
-// import left2 from "../assets/anime2.svg";
-// import right1 from "../assets/anime1.svg";
+import left2 from "../assets/anime2.svg";
+import right1 from "../assets/anime1.svg";
 import right2 from "../assets/anime2.svg";
 
 // Hero section with animated images, search, and tabs
 const Hero = () => {
   // Image arrays for left and right
-  const leftImages = [left1];
-  const rightImages = [right2];
-  // const [leftIdx, setLeftIdx] = useState(0);
-  // const [rightIdx, setRightIdx] = useState(0);
+  const leftImages = [left1, left2];
+  const rightImages = [right1, right2];
+  const [leftIdx, setLeftIdx] = useState(0);
+  const [rightIdx, setRightIdx] = useState(0);
 
   // Cycle images every 3 seconds
-  // useEffect(() => {
-  //   const leftInterval = setInterval(() => {
-  //     setLeftIdx((prev) => (prev + 1) % leftImages.length);
-  //   }, 5000);
-  //   const rightInterval = setInterval(() => {
-  //     setRightIdx((prev) => (prev + 1) % rightImages.length);
-  //   }, 5000);
-  //   return () => {
-  //     clearInterval(leftInterval);
-  //     clearInterval(rightInterval);
-  //   };
-  // }, []);
+  useEffect(() => {
+    const leftInterval = setInterval(() => {
+      setLeftIdx((prev) => (prev + 1) % leftImages.length);
+    }, 5000);
+    const rightInterval = setInterval(() => {
+      setRightIdx((prev) => (prev + 1) % rightImages.length);
+    }, 5000);
+    return () => {
+      clearInterval(leftInterval);
+      clearInterval(rightInterval);
+    };
+  }, []);
 
   // Popular search tabs
-  const tabs = ["React", "Tailwind", "Landing", "UI Kit", "Templates"];
+  const tabs = [
+    "Graphic Design",
+    "Web Development",
+    "Programming",
+    "UI/UX Design",
+    "Presentation Design",
+    "Video Editing",
+  ];
   const [activeTab, setActiveTab] = useState(0);
 
   return (
     <section className='relative flex flex-col items-center justify-center min-h-[80vh] px-4 md:px-12 lg:px-[100px] pt-12 overflow-hidden'>
       {/* Absolutely positioned images */}
       <img
-        // src={leftImages[leftIdx]}
-        src={leftImages}
+        src={leftImages[leftIdx]}
+        // src={leftImages}
         alt='Left visual'
         className='hidden md:block absolute left-10 top-[42%] -translate-y-1/2 w-68 h-68 object-contain animate-fade'
       />
       <img
-        // src={rightImages[rightIdx]}
-        src={rightImages}
+        src={rightImages[rightIdx]}
+        // src={rightImages}
         alt='Right visual'
         className='hidden md:block absolute right-0 top-[42%] -translate-y-1/2 w-68 h-68 object-contain animate-fade'
       />
@@ -101,7 +108,7 @@ const Hero = () => {
 
       {/* Popular search tabs */}
       <div className='flex flex-row items-center justify-center w-full mt-2'>
-        <span className='text-[#0F0F0F] text-sm mr-4 font-medium whitespace-nowrap'>
+        <span className='text-[#646464] text-sm mr-4 font-medium whitespace-nowrap'>
           Popular Search:
         </span>
         <div className='flex space-x-2'>

@@ -147,13 +147,13 @@ const BuildTemplateSection = () => {
             {secondary.map((img, idx) => (
               <div
                 key={idx}
-                className='rounded-2xl w-80 h-60 flex items-center justify-center p-0'
+                className='rounded-2xl w-80 h-60 flex items-center justify-end p-0'
                 style={{ background: gradients[idx % gradients.length] }}
               >
                 <img
                   src={img}
                   alt={`Secondary ${idx + 1}`}
-                  className='w-72 h-full object-cover rounded-2xl pt-6 pl-6'
+                  className='w-72 h-full object-cover rounded-2xl pt-4 pl-0'
                 />
               </div>
             ))}
