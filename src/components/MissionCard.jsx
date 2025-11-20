@@ -37,7 +37,7 @@ const MissionCard = ({
           : ""
       } rounded-tr-[30px] rounded-bl-[30px] shadow-lg`}
       style={{
-        width: expanded ? "420px" : "260px",
+        width: expanded ? "520px" : "320px",
         height: "480px",
         margin: "0 6px",
       }}
@@ -78,7 +78,7 @@ const MissionCard = ({
       {/* Get Started button (if expanded) */}
       {expanded && (
         <button
-          className='absolute bottom-6 left-1/2 -translate-x-1/2 flex items-center px-6 py-2 font-semibold rounded-[46px] shadow-lg text-white text-xs transition-all duration-300 min-w-[140px] justify-center'
+          className='absolute bottom-6 left-1/2 -translate-x-1/2 flex items-center px-6 py-2 font-semibold rounded-[46px] shadow-lg text-white text-base transition-all duration-300 min-w-[140px] justify-center'
           style={{
             background: buttonBgColors[idx],
             boxShadow: "0 4px 24px 0 rgba(0,0,0,0.18)",

@@ -36,7 +36,7 @@ const ExploreFreeResourcesButton = () => {
   const [hovered, setHovered] = React.useState(false);
   return (
     <button
-      className='flex text-[13px] items-center justify-center px-6 py-2 bg-[#F05658] text-white font-semibold rounded-[20px] shadow hover:bg-[#F05658] transition w-full sm:w-auto relative overflow-hidden'
+      className='flex text-[13px] items-center justify-center px-6 py-2 bg-[#F05658] text-white font-semibold rounded-xl shadow hover:bg-[#F05658] transition w-full sm:w-auto relative overflow-hidden'
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
       style={{ minWidth: 200 }}
@@ -86,7 +86,7 @@ const RegisterForFreeResourcesButton = () => {
   const [hovered, setHovered] = React.useState(false);
   return (
     <button
-      className='flex text-[15px] items-center justify-center px-6 py-2 bg-[#F3F4F6] text-[#F05658] font-semibold rounded-[46px] shadow hover:bg-[#e5e7eb] transition w-full sm:w-auto relative overflow-hidden'
+      className='flex text-[15px] items-center justify-center px-6 py-2 bg-[#F3F4F6] text-[#F05658] font-semibold rounded-xl shadow hover:bg-[#e5e7eb] transition w-full sm:w-auto relative overflow-hidden'
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
       style={{ minWidth: 200 }}
@@ -107,11 +107,11 @@ const RegisterForFreeResourcesButton = () => {
 };
 
 const GrowSection = () => (
-  <section className='w-full py-12 px-4 md:px-8 lg:px-[100px] bg-white'>
-    <h2 className='text-xl md:text-3xl lg:text-[36px] font-bold mb-2 text-center'>
+  <section className='w-full my-4 lg:my-[120px] px-4 md:px-8 lg:px-[100px] bg-white'>
+    <h2 className='text-xl md:text-3xl lg:text-[36px] font-bold mb-5 text-center'>
       Grow Your Skills With Free Resources From Allnovas
     </h2>
-    <p className='text-base md:text-[20px] lg:text-[20px] text-gray-500 mb-8 text-center'>
+    <p className='text-base md:text-[20px] lg:text-[20px] text-gray-500 mb-16 text-center'>
       Positioning tech experts to grow with carefully curated tutorials,
       templates and ebooks
     </p>
@@ -128,14 +128,14 @@ const GrowSection = () => (
       <div className='flex-1 flex flex-col justify-center w-full'>
         <div className='space-y-6 mb-8'>
           {growList.map((item, idx) => (
-            <div key={idx} className='flex items-center gap-3 sm:gap-4'>
+            <div key={idx} className='flex items-start gap-3 sm:gap-4'>
               <img
                 src={item.icon}
                 alt='icon'
                 className='w-6 h-6 text-blue-600'
               />
-              <div>
-                <h3 className='text-base sm:text-lg font-semibold'>
+              <div className='mb-8'>
+                <h3 className='text-base sm:text-lg font-semibold mb-2'>
                   {item.heading}
                 </h3>
                 <p className='text-gray-500 text-xs sm:text-sm'>

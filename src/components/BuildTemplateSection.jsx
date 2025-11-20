@@ -99,9 +99,9 @@ const BuildTemplateSection = () => {
   const [current, setCurrent] = useState(0);
   const { main, secondary } = carouselData[current];
   return (
-    <section className='relative w-full py-16 px-4 md:px-12 lg:px-[100px] bg-black'>
+    <section className='relative w-full py-4 lg:py-[120px] px-4 md:px-12 lg:px-[100px] bg-black'>
       <div className='relative flex flex-col items-center'>
-        <h2 className='text-xl md:text-3xl lg:text-[36px] font-bold text-center mb-2 text-white inline-block relative'>
+        <h2 className='text-xl md:text-3xl lg:text-[36px] font-bold text-center mb-5 text-white inline-block relative'>
           Build Templates. Download Free. Grow Together
           {/* Down arrow absolutely at end of heading */}
           <img
@@ -110,11 +110,11 @@ const BuildTemplateSection = () => {
             className='absolute right-0 top-[150%] -translate-y-1/2 w-14 h-14 rotate-390'
           />
         </h2>
-        <p className='text-md text-gray-300 text-center mb-8'>
+        <p className='text-md text-gray-300 text-center mb-16'>
           Upload your designs or download free resources.
         </p>
       </div>
-      <div className='flex justify-center items-center gap-2 w-full'>
+      <div className='flex justify-center mb-2 lg:mb-7 items-center gap-2 w-full'>
         {/* Carousel Content only */}
         <div className='flex flex-col md:flex-row w-full gap-4 md:gap-5'>
           {/* First column (larger) */}

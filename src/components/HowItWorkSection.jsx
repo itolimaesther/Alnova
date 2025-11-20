@@ -1,11 +1,11 @@
 import React from "react";
 
 const HowItWorkSection = () => (
-  <section className='w-full py-16 px-4 md:px-12 lg:px-[200px] bg-white'>
-    <h2 className='text-xl md:text-3xl lg:text-[36px] font-bold text-center mb-2'>
+  <section className='w-full px-4 md:px-12 lg:px-[200px] bg-white'>
+    <h2 className='text-xl md:text-3xl lg:text-[36px] font-bold text-center mb-5'>
       How AllNova Works
     </h2>
-    <p className='text-base md:text-[20px] lg:text-[20px] text-gray-500 text-center mb-8'>
+    <p className='text-base md:text-[20px] lg:text-[20px] text-gray-500 text-center mb-16'>
       Your Path to Success: From Choosing the Perfect Freelancer to Seamless
       Deliveries at Your Virtual Doorstep!
     </p>

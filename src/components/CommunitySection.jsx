@@ -5,14 +5,14 @@ import community from "../assets/community.png";
 import starSvg from "../assets/star.svg";
 
 const CommunitySection = () => (
-  <section className='w-full py-12 px-4 md:px-8 lg:px-[100px] bg-white'>
+  <section className='w-full py-4 lg:py-[120px] px-4 md:px-8 lg:px-[100px] bg-white'>
     <div className='flex flex-col md:flex-row items-center gap-8 md:gap-12 max-w-6xl mx-auto'>
       {/* Left: Texts */}
       <div className='flex-1 flex flex-col justify-center relative w-full'>
-        <span className='text-base text-[#6A0DAD] font-semibold mb-2'>
+        <span className='text-base mb-2 text-[#6A0DAD] font-semibold mb-2'>
           Tribe
         </span>
-        <h2 className='text-xl md:text-3xl lg:text-[36px] font-bold mb-2 inline-block relative pr-12'>
+        <h2 className='text-xl md:text-3xl lg:text-[36px] font-bold mb-5 inline-block relative pr-12'>
           Unlock Your Full Potential Using Our Community
           {/* Absolutely positioned com svg at end of heading */}
           <img
@@ -25,7 +25,7 @@ const CommunitySection = () => (
           Connect, learn, and grow with like-minded individuals and experts from
           around the world.
         </p>
-        <button className='w-max flex items-center px-6 md:px-8 py-2 md:py-3 bg-[#F05658] text-white font-semibold rounded-[20px] shadow hover:bg-[#F4F4F4] hover:text-[#F05658] transition mb-8 text-sm md:text-base'>
+        <button className='w-max flex items-center px-6 md:px-8 py-2 md:py-3 bg-[#F05658] text-white font-semibold rounded-xl shadow hover:bg-[#F4F4F4] hover:text-[#F05658] transition mb-8 text-sm md:text-base'>
           Join Community
         </button>
         {/* 3-column stats */}
@@ -63,7 +63,7 @@ const CommunitySection = () => (
         <img
           src={starSvg}
           alt='star'
-          className='absolute top-0 right-6 w-8 h-8 md:w-24 md:h-24 -translate-y-1/3 translate-x-1/3'
+          className='absolute top-0 right-6 w-8 h-8 md:w-36 md:h-36 -translate-y-1/3 translate-x-1/3'
           style={{ zIndex: 2 }}
         />
       </div>

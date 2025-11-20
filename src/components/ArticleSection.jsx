@@ -82,7 +82,7 @@ const ViewAllPostsButton = () => {
 };
 
 const ArticleSection = () => (
-  <section className='w-full py-16 px-4 md:px-12 lg:px-[100px] bg-white'>
+  <section className='w-full my-4 lg:my-[120px] px-4 md:px-12 lg:px-[100px] bg-white'>
     {/* Header Row */}
     <div className='flex flex-col md:flex-row items-center justify-between mb-10 gap-4'>
       <div>
@@ -90,13 +90,13 @@ const ArticleSection = () => (
           Insights
         </span>
         <h2
-          className='text-xl md:text-3xl lg:text-[36px] font-bold'
+          className='text-xl md:text-3xl lg:text-[36px] font-bold mb-5'
           style={{ color: "#0F0F0F" }}
         >
           Latest Articles
         </h2>
         <p
-          className='mt-1 text-base md:text-[20px] lg:text-[20px]'
+          className='mt-1 text-base md:text-[20px] lg:text-[20px] mb-16'
           style={{ color: "#4B4B4B" }}
         >
           Check out the latest updates and free resources from Allnova.

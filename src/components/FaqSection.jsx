@@ -93,11 +93,11 @@ const FaqSection = () => {
   const [openIdx, setOpenIdx] = useState(null);
 
   return (
-    <section className='relative w-full py-16 px-4 md:px-12 lg:px-[100px] bg-white'>
+    <section className='relative w-full my-4 lg:my-[120px] px-4 md:px-12 lg:px-[100px] bg-white'>
       {/* Heading with absolute image */}
       <div className='relative mb-10'>
         <h2
-          className='text-xl md:text-3xl lg:text-[36px] font-bold text-center relative lg:mb-8'
+          className='text-xl md:text-3xl lg:text-[36px] font-bold text-center relative lg:mb-5'
           style={{ color: "#0F0F0F" }}
         >
           Frequently asked questions
@@ -109,7 +109,7 @@ const FaqSection = () => {
           />
         </h2>
         <p
-          className='mt-3 text-base md:text-[20px] lg:text-[20px] text-center'
+          className='mt-3 text-base md:text-[20px] lg:text-[20px] text-center mb-6'
           style={{ color: "#4B4B4B" }}
         >
           These are the commonly asked questions on Allnovas. Still have some
@@ -118,7 +118,7 @@ const FaqSection = () => {
         </p>
       </div>
       {/* Tabs */}
-      <div className='flex justify-center gap-4 mb-8 flex-wrap'>
+      <div className='flex justify-center gap-4 mb-[88px] flex-wrap'>
         {tabs.map((tab, idx) => (
           <button
             key={tab.label}

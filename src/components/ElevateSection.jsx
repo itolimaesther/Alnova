@@ -18,10 +18,10 @@ const listItems = [
 
 const ElevateSection = () => {
   return (
-    <section className='w-full py-12 px-4 md:px-8 lg:px-[100px] bg-white'>
+    <section className='w-full px-4 md:px-8 lg:px-[100px] bg-white my-4 lg:my-[120px]'>
       <div className='flex flex-col md:flex-row items-center gap-8 md:gap-12 max-w-6xl mx-auto'>
         {/* Left: Image */}
-        <div className='flex-1 flex justify-center items-center w-full mb-8 md:mb-0'>
+        <div className='flex-1 flex justify-center items-center w-full'>
           <img
             src={elevateImg}
             alt='Elevate'
@@ -30,7 +30,7 @@ const ElevateSection = () => {
         </div>
         {/* Right: Texts */}
         <div className='flex-1 flex flex-col justify-center w-full'>
-          <h2 className='text-xl md:text-3xl lg:text-[36px] font-bold mb-4'>
+          <h2 className='text-xl md:text-3xl lg:text-[36px] font-bold mb-5'>
             Elevate Your Workflow with Allnovas.
           </h2>
           <p className='text-gray-500 text-base md:text-[20px] lg:text-[20px] mb-8'>
@@ -38,11 +38,11 @@ const ElevateSection = () => {
           </p>
           <div className='space-y-6 sm:space-y-8'>
             {listItems.map((item, idx) => (
-              <div key={idx} className='flex items-center gap-3 sm:gap-4'>
+              <div key={idx} className='flex items-start gap-3 sm:gap-4'>
                 {/* Small number in gradient circle, aligned with heading */}
                 <div className='shrink-0 flex items-center'>
                   <div
-                    className='w-6 h-6 flex items-center justify-center rounded-full text-white text-xs font-bold'
+                    className='w-4 h-4 lg:mt-2 flex items-center justify-center rounded-full text-white text-xs font-bold'
                     style={{
                       background:
                         "linear-gradient(180deg, #460050 0%, #F05658 100%)",
@@ -52,8 +52,8 @@ const ElevateSection = () => {
                   </div>
                 </div>
                 {/* Texts */}
-                <div className='flex-1 flex flex-col'>
-                  <h3 className='text-base sm:text-lg font-semibold mb-1 flex items-center'>
+                <div className='flex-1 flex flex-col mb-8'>
+                  <h3 className='text-base sm:text-lg font-semibold mb-2 flex items-center'>
                     {item.heading}
                   </h3>
                   <p className='text-gray-500 text-xs sm:text-sm'>

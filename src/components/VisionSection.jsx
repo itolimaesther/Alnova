@@ -47,12 +47,12 @@ const VisionSection = () => {
   };
 
   return (
-    <section className='w-full py-8 px-2 sm:px-4 md:px-8 lg:px-16 bg-white'>
+    <section className='w-full my-4 lg:my-[120px] px-2 sm:px-4 md:px-8 lg:px-16 bg-white'>
       <div className='relative w-full flex flex-col items-center'>
-        <span className='text-base text-[#6A0DAD] font-semibold mb-2 text-center w-full block'>
+        <span className='text-base text-[#6A0DAD] font-semibold mb-3 text-center w-full block'>
           Specialized Niches
         </span>
-        <div className='relative w-full flex justify-center'>
+        <div className='relative w-full flex justify-center mb-5'>
           <h2 className='text-xl md:text-3xl lg:text-[36px] font-bold text-center mb-8 w-full'>
             Your vision, Our niche
           </h2>
@@ -63,7 +63,7 @@ const VisionSection = () => {
             className='absolute right-102 -top-14 w-16 h-16 md:w-20 md:h-20 z-10'
           />
         </div>
-        <p className='text-gray-500 text-base md:text-[20px] lg:text-[20px] mb-6 max-w-md text-center w-full'>
+        <p className='text-gray-500 text-base md:text-[20px] lg:text-[20px] mb-16 max-w-md text-center w-full'>
           We connect clients with high-end freelancers across these categories
         </p>
       </div>

@@ -40,11 +40,11 @@ const Footer = () => {
           <input
             type='email'
             placeholder='Enter email'
-            className='w-full md:w-auto px-4 py-2 rounded-[15px] border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#F05658] text-sm'
+            className='w-full md:w-auto px-4 py-2 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#F05658] text-sm'
           />
           <button
             type='submit'
-            className='w-full md:w-auto px-6 py-2 bg-[#F05658] text-white font-semibold rounded-[15px] hover:bg-[#e04c4e] transition text-sm'
+            className='w-full md:w-auto px-6 py-2 bg-[#F05658] text-white font-semibold rounded-xl hover:bg-[#e04c4e] transition text-sm'
           >
             Unlock Insights
           </button>
@@ -54,86 +54,86 @@ const Footer = () => {
       {/* Second row: 5 columns of links */}
       <div className='grid grid-cols-2 md:grid-cols-5 gap-6 mb-8'>
         <div>
-          <h3 className='font-semibold mb-2 text-[#0F0F0F] text-sm'>
+          <h3 className='font-semibold mb-2 text-[#0F0F0F] text-sm pb-4'>
             Categories
           </h3>
           <ul className='space-y-1 text-base'>
-            <li>
+            <li className='pb-6'>
               <a
                 href='#'
-                className='text-[#0F0F0F] hover:text-[#0F0F0F] hover:underline hover:decoration-[#0F0F0F] decoration-[#0F0F0F] text-[18px]'
+                className='text-[#0F0F0F] hover:text-[#0F0F0F] hover:underline hover:decoration-[#0F0F0F] decoration-[#0F0F0F] text-[16px]'
               >
                 Graphic Design
               </a>
             </li>
-            <li>
+            <li className='pb-6'>
               <a
                 href='#'
-                className='text-[#0F0F0F] hover:text-[#0F0F0F] hover:underline hover:decoration-[#0F0F0F] decoration-[#0F0F0F] text-[18px]'
+                className='text-[#0F0F0F] hover:text-[#0F0F0F] hover:underline hover:decoration-[#0F0F0F] decoration-[#0F0F0F] text-[16px]'
               >
                 UI/UX Design
               </a>
             </li>
-            <li>
+            <li className='pb-6'>
               <a
                 href='#'
-                className='text-[#0F0F0F] hover:text-[#0F0F0F] hover:underline hover:decoration-[#0F0F0F] decoration-[#0F0F0F] text-[18px]'
+                className='text-[#0F0F0F] hover:text-[#0F0F0F] hover:underline hover:decoration-[#0F0F0F] decoration-[#0F0F0F] text-[16px]'
               >
                 Web Development
               </a>
             </li>
-            <li>
+            <li className='pb-6'>
               <a
                 href='#'
-                className='text-[#0F0F0F] hover:text-[#0F0F0F] hover:underline hover:decoration-[#0F0F0F] decoration-[#0F0F0F] text-[18px]'
+                className='text-[#0F0F0F] hover:text-[#0F0F0F] hover:underline hover:decoration-[#0F0F0F] decoration-[#0F0F0F] text-[16px]'
               >
                 Mobile App Development
               </a>
             </li>
-            <li>
+            <li className='pb-6'>
               <a
                 href='#'
-                className='text-[#0F0F0F] hover:text-[#0F0F0F] hover:underline hover:decoration-[#0F0F0F] decoration-[#0F0F0F] text-[18px]'
+                className='text-[#0F0F0F] hover:text-[#0F0F0F] hover:underline hover:decoration-[#0F0F0F] decoration-[#0F0F0F] text-[16px]'
               >
                 Programming and Tech
               </a>
             </li>
-            <li>
+            <li className='pb-6'>
               <a
                 href='#'
-                className='text-[#0F0F0F] hover:text-[#0F0F0F] hover:underline hover:decoration-[#0F0F0F] decoration-[#0F0F0F] text-[18px]'
+                className='text-[#0F0F0F] hover:text-[#0F0F0F] hover:underline hover:decoration-[#0F0F0F] decoration-[#0F0F0F] text-[16px]'
               >
                 Video Editing
               </a>
             </li>
-            <li>
+            <li className='pb-6'>
               <a
                 href='#'
-                className='text-[#0F0F0F] hover:text-[#0F0F0F] hover:underline hover:decoration-[#0F0F0F] decoration-[#0F0F0F] text-[18px]'
+                className='text-[#0F0F0F] hover:text-[#0F0F0F] hover:underline hover:decoration-[#0F0F0F] decoration-[#0F0F0F] text-[16px]'
               >
                 Social Media Design
               </a>
             </li>
-            <li>
+            <li className='pb-6'>
               <a
                 href='#'
-                className='text-[#0F0F0F] hover:text-[#0F0F0F] hover:underline hover:decoration-[#0F0F0F] decoration-[#0F0F0F] text-[18px]'
+                className='text-[#0F0F0F] hover:text-[#0F0F0F] hover:underline hover:decoration-[#0F0F0F] decoration-[#0F0F0F] text-[16px]'
               >
                 Social Media Management
               </a>
             </li>
-            <li>
+            <li className='pb-6'>
               <a
                 href='#'
-                className='text-[#0F0F0F] hover:text-[#0F0F0F] hover:underline hover:decoration-[#0F0F0F] decoration-[#0F0F0F] text-[18px]'
+                className='text-[#0F0F0F] hover:text-[#0F0F0F] hover:underline hover:decoration-[#0F0F0F] decoration-[#0F0F0F] text-[16px]'
               >
                 Presentation Design
               </a>
             </li>
-            <li>
+            <li className='pb-6'>
               <a
                 href='#'
-                className='text-[#0F0F0F] hover:text-[#0F0F0F] hover:underline hover:decoration-[#0F0F0F] decoration-[#0F0F0F] text-[18px]'
+                className='text-[#0F0F0F] hover:text-[#0F0F0F] hover:underline hover:decoration-[#0F0F0F] decoration-[#0F0F0F] text-[16px]'
               >
                 Illustration & Digital Art
               </a>
@@ -141,151 +141,173 @@ const Footer = () => {
           </ul>
         </div>
         <div>
-          <h3 className='font-semibold mb-2 text-[#0F0F0F] text-sm'>Company</h3>
-          <ul className='space-y-1 text-sm'>
-            <li>
-              <a
-                href='#'
-                className='text-[#0F0F0F] hover:text-[#0F0F0F] hover:underline hover:decoration-[#0F0F0F] decoration-[#0F0F0F] text-[18px]'
-              >
-                About
-              </a>
-            </li>
-            <li>
-              <a
-                href='#'
-                className='text-[#0F0F0F] hover:text-[#0F0F0F] hover:underline hover:decoration-[#0F0F0F] decoration-[#0F0F0F] text-[18px]'
-              >
-                Careers
-              </a>
-            </li>
-            <li>
-              <a
-                href='#'
-                className='text-[#0F0F0F] hover:text-[#0F0F0F] hover:underline hover:decoration-[#0F0F0F] decoration-[#0F0F0F] text-[18px]'
-              >
-                Press
-              </a>
-            </li>
-            <li>
-              <a
-                href='#'
-                className='text-[#0F0F0F] hover:text-[#0F0F0F] hover:underline hover:decoration-[#0F0F0F] decoration-[#0F0F0F] text-[18px]'
-              >
-                News
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div>
-          <h3 className='font-semibold mb-2 text-[#0F0F0F] text-sm'>
-            Resources
+          <h3 className='font-semibold mb-2 text-[#0F0F0F] text-sm pb-4'>
+            Explore
           </h3>
           <ul className='space-y-1 text-sm'>
-            <li>
+            <li className='pb-6'>
               <a
                 href='#'
-                className='text-[#0F0F0F] hover:text-[#0F0F0F] hover:underline hover:decoration-[#0F0F0F] decoration-[#0F0F0F] text-[18px]'
+                className='text-[#0F0F0F] hover:text-[#0F0F0F] hover:underline hover:decoration-[#0F0F0F] decoration-[#0F0F0F] text-[16px]'
               >
-                Docs
+                How it works
               </a>
             </li>
-            <li>
+            <li className='pb-6'>
               <a
                 href='#'
-                className='text-[#0F0F0F] hover:text-[#0F0F0F] hover:underline hover:decoration-[#0F0F0F] decoration-[#0F0F0F] text-[18px]'
+                className='text-[#0F0F0F] hover:text-[#0F0F0F] hover:underline hover:decoration-[#0F0F0F] decoration-[#0F0F0F] text-[16px]'
               >
-                Blog
+                Help and Support
               </a>
             </li>
-            <li>
+            <li className='pb-6'>
               <a
                 href='#'
-                className='text-[#0F0F0F] hover:text-[#0F0F0F] hover:underline hover:decoration-[#0F0F0F] decoration-[#0F0F0F] text-[18px]'
+                className='text-[#0F0F0F] hover:text-[#0F0F0F] hover:underline hover:decoration-[#0F0F0F] decoration-[#0F0F0F] text-[16px]'
               >
-                Guides
+                Articles
               </a>
             </li>
-            <li>
+            <li className='pb-6'>
               <a
                 href='#'
-                className='text-[#0F0F0F] hover:text-[#0F0F0F] hover:underline hover:decoration-[#0F0F0F] decoration-[#0F0F0F] text-[18px]'
-              >
-                Help Center
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div>
-          <h3 className='font-semibold mb-2 text-[#0F0F0F] text-sm'>Legal</h3>
-          <ul className='space-y-1 text-sm'>
-            <li>
-              <a
-                href='#'
-                className='text-[#0F0F0F] hover:text-[#0F0F0F] hover:underline hover:decoration-[#0F0F0F] decoration-[#0F0F0F] text-[18px]'
-              >
-                Privacy
-              </a>
-            </li>
-            <li>
-              <a
-                href='#'
-                className='text-[#0F0F0F] hover:text-[#0F0F0F] hover:underline hover:decoration-[#0F0F0F] decoration-[#0F0F0F] text-[18px]'
-              >
-                Terms
-              </a>
-            </li>
-            <li>
-              <a
-                href='#'
-                className='text-[#0F0F0F] hover:text-[#0F0F0F] hover:underline hover:decoration-[#0F0F0F] decoration-[#0F0F0F] text-[18px]'
-              >
-                Security
-              </a>
-            </li>
-            <li>
-              <a
-                href='#'
-                className='text-[#0F0F0F] hover:text-[#0F0F0F] hover:underline hover:decoration-[#0F0F0F] decoration-[#0F0F0F] text-[18px]'
-              >
-                SLA
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div>
-          <h3 className='font-semibold mb-2 text-[#0F0F0F] text-sm'>Contact</h3>
-          <ul className='space-y-1 text-sm'>
-            <li>
-              <a
-                href='#'
-                className='text-[#0F0F0F] hover:text-[#0F0F0F] hover:underline hover:decoration-[#0F0F0F] decoration-[#0F0F0F] text-[18px]'
-              >
-                Support
-              </a>
-            </li>
-            <li>
-              <a
-                href='#'
-                className='text-[#0F0F0F] hover:text-[#0F0F0F] hover:underline hover:decoration-[#0F0F0F] decoration-[#0F0F0F] text-[18px]'
-              >
-                Sales
-              </a>
-            </li>
-            <li>
-              <a
-                href='#'
-                className='text-[#0F0F0F] hover:text-[#0F0F0F] hover:underline hover:decoration-[#0F0F0F] decoration-[#0F0F0F] text-[18px]'
-              >
-                Partners
-              </a>
-            </li>
-            <li>
-              <a
-                href='#'
-                className='text-[#0F0F0F] hover:text-[#0F0F0F] hover:underline hover:decoration-[#0F0F0F] decoration-[#0F0F0F] text-[18px]'
+                className='text-[#0F0F0F] hover:text-[#0F0F0F] hover:underline hover:decoration-[#0F0F0F] decoration-[#0F0F0F] text-[16px]'
               >
                 Community
+              </a>
+            </li>
+            <li className='pb-6'>
+              <a
+                href='#'
+                className='text-[#0F0F0F] hover:text-[#0F0F0F] hover:underline hover:decoration-[#0F0F0F] decoration-[#0F0F0F] text-[16px]'
+              >
+                FAQs
+              </a>
+            </li>
+            <li className='pb-6'>
+              <a
+                href='#'
+                className='text-[#0F0F0F] hover:text-[#0F0F0F] hover:underline hover:decoration-[#0F0F0F] decoration-[#0F0F0F] text-[16px]'
+              >
+                Marketplace
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h3 className='font-semibold mb-2 text-[#0F0F0F] text-sm pb-4'>
+            For Freelancers
+          </h3>
+          <ul className='space-y-1 text-sm'>
+            <li className='pb-6'>
+              <a
+                href='#'
+                className='text-[#0F0F0F] hover:text-[#0F0F0F] hover:underline hover:decoration-[#0F0F0F] decoration-[#0F0F0F] text-[16px]'
+              >
+                Join as a freelancer
+              </a>
+            </li>
+            <li className='pb-6'>
+              <a
+                href='#'
+                className='text-[#0F0F0F] hover:text-[#0F0F0F] hover:underline hover:decoration-[#0F0F0F] decoration-[#0F0F0F] text-[16px]'
+              >
+                Find Jobs
+              </a>
+            </li>
+            <li className='pb-6'>
+              <a
+                href='#'
+                className='text-[#0F0F0F] hover:text-[#0F0F0F] hover:underline hover:decoration-[#0F0F0F] decoration-[#0F0F0F] text-[16px]'
+              >
+                Freelancing Tips
+              </a>
+            </li>
+            <li className='pb-6'>
+              <a
+                href='#'
+                className='text-[#0F0F0F] hover:text-[#0F0F0F] hover:underline hover:decoration-[#0F0F0F] decoration-[#0F0F0F] text-[16px]'
+              >
+                Community Forums
+              </a>
+            </li>
+            <li className='pb-6'>
+              <a
+                href='#'
+                className='text-[#0F0F0F] hover:text-[#0F0F0F] hover:underline hover:decoration-[#0F0F0F] decoration-[#0F0F0F] text-[16px]'
+              >
+                Success Stories
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h3 className='font-semibold mb-2 text-[#0F0F0F] text-sm pb-4'>
+            Company
+          </h3>
+          <ul className='space-y-1 text-sm'>
+            <li className='pb-6'>
+              <a
+                href='#'
+                className='text-[#0F0F0F] hover:text-[#0F0F0F] hover:underline hover:decoration-[#0F0F0F] decoration-[#0F0F0F] text-[16px]'
+              >
+                About Allnova
+              </a>
+            </li>
+            <li className='pb-6'>
+              <a
+                href='#'
+                className='text-[#0F0F0F] hover:text-[#0F0F0F] hover:underline hover:decoration-[#0F0F0F] decoration-[#0F0F0F] text-[16px]'
+              >
+                Contact Us
+              </a>
+            </li>
+            <li className='pb-6'>
+              <a
+                href='#'
+                className='text-[#0F0F0F] hover:text-[#0F0F0F] hover:underline hover:decoration-[#0F0F0F] decoration-[#0F0F0F] text-[16px]'
+              >
+                Privacy Policy
+              </a>
+            </li>
+            <li className='pb-6'>
+              <a
+                href='#'
+                className='text-[#0F0F0F] hover:text-[#0F0F0F] hover:underline hover:decoration-[#0F0F0F] decoration-[#0F0F0F] text-[16px]'
+              >
+                Terms of Service
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h3 className='font-semibold mb-2 text-[#0F0F0F] text-sm pb-4'>
+            For Clients
+          </h3>
+          <ul className='space-y-1 text-sm'>
+            <li className='pb-6'>
+              <a
+                href='#'
+                className='text-[#0F0F0F] hover:text-[#0F0F0F] hover:underline hover:decoration-[#0F0F0F] decoration-[#0F0F0F] text-[16px]'
+              >
+                Hire Freelancers
+              </a>
+            </li>
+            <li className='pb-6'>
+              <a
+                href='#'
+                className='text-[#0F0F0F] hover:text-[#0F0F0F] hover:underline hover:decoration-[#0F0F0F] decoration-[#0F0F0F] text-[16px]'
+              >
+                Shared Platform
+              </a>
+            </li>
+            <li className='pb-6'>
+              <a
+                href='#'
+                className='text-[#0F0F0F] hover:text-[#0F0F0F] hover:underline hover:decoration-[#0F0F0F] decoration-[#0F0F0F] text-[16px]'
+              >
+                Post a job
               </a>
             </li>
           </ul>

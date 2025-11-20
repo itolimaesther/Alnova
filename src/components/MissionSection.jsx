@@ -28,19 +28,19 @@ const MissionSection = () => {
   // Track which card is expanded; default to 1 (second card)
   const [expandedIdx, setExpandedIdx] = useState(1);
   return (
-    <section className='w-full py-12 px-4 md:px-8 lg:px-[100px] bg-white'>
+    <section className='w-full px-4 md:px-8 lg:px-[100px] bg-white my-4 lg:my-[120px]'>
       {/* Tiny text */}
-      <span className='text-base text-[#6A0DAD] font-semibold mb-2 text-center block w-full'>
+      <span className='text-base text-[#6A0DAD] font-semibold mb-3 text-center block w-full'>
         Our Mission
       </span>
       {/* Heading */}
-      <h2 className='text-xl md:text-3xl lg:text-[36px] font-bold text-center mb-2 w-full'>
+      <h2 className='text-xl md:text-3xl lg:text-[36px] font-bold text-center mb-5 w-full'>
         Building A Trusted Ecosystem Where
         <br className='hidden sm:inline' />
         Talents Thrive And Opportunities Grow
       </h2>
       {/* Semi-heading */}
-      <p className='text-gray-500 text-base md:text-[20px] lg:text-[20px] text-center mb-10 max-w-2xl mx-auto w-full'>
+      <p className='text-gray-500 text-base md:text-[20px] lg:text-[20px] text-center mb-16 max-w-2xl mx-auto w-full'>
         Secured payments, verified talents and transparent projects
       </p>
       {/* Cards */}
