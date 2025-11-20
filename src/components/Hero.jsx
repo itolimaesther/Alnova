@@ -1,22 +1,16 @@
-// To enable the fade-in effect on images, add the following to your global CSS (e.g., src/index.css or App.css):
-// .fade-in {
-//   animation: fadeIn 1s ease-in;
-// }
-// @keyframes fadeIn {
-//   from { opacity: 0; }
-//   to { opacity: 1; }
-// }
 import React, { useState, useEffect } from "react";
 import left1 from "../assets/anime1.svg";
-import left2 from "../assets/anime2.svg";
-import right1 from "../assets/anime1.svg";
+import left2 from "../assets/community.png";
+import left3 from "../assets/com.svg";
+import right1 from "../assets/community.png";
 import right2 from "../assets/anime2.svg";
+import right3 from "../assets/faq.png";
 
 // Hero section with animated images, search, and tabs
 const Hero = () => {
   // Image arrays for left and right
-  const leftImages = [left1, left2];
-  const rightImages = [right1, right2];
+  const leftImages = [left1, left2, left3];
+  const rightImages = [right1, right2, right3];
   const [leftIdx, setLeftIdx] = useState(0);
   const [rightIdx, setRightIdx] = useState(0);
 
@@ -62,7 +56,7 @@ const Hero = () => {
       <img
         src={leftImages[leftIdx]}
         alt='Left visual'
-        className={`hidden md:block absolute left-2 md:left-10 top-1/2 -translate-y-1/2 w-32 h-32 md:w-68 md:h-68 object-contain z-0${
+        className={`hidden md:block absolute left-2 md:left-16 top-1/3 -translate-y-1/2 w-32 h-32 md:w-68 md:h-68 object-contain z-0${
           fadeLeft ? " fade-in" : ""
         }`}
       />
@@ -70,7 +64,7 @@ const Hero = () => {
       <img
         src={rightImages[rightIdx]}
         alt='Right visual'
-        className={`hidden md:block absolute right-2 md:right-0 top-1/2 -translate-y-1/2 w-32 h-32 md:w-68 md:h-68 object-contain z-0${
+        className={`hidden md:block absolute right-2 md:right-12 top-1/3 -translate-y-1/2 w-32 h-32 md:w-68 md:h-68 object-contain z-0${
           fadeRight ? " fade-in" : ""
         }`}
       />
