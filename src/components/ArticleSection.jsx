@@ -90,12 +90,15 @@ const ArticleSection = () => (
           Insights
         </span>
         <h2
-          className='text-3xl md:text-[36px] font-bold'
+          className='text-xl md:text-3xl lg:text-[36px] font-bold'
           style={{ color: "#0F0F0F" }}
         >
           Latest Articles
         </h2>
-        <p className='mt-1 text-[20px]' style={{ color: "#4B4B4B" }}>
+        <p
+          className='mt-1 text-base md:text-[20px] lg:text-[20px]'
+          style={{ color: "#4B4B4B" }}
+        >
           Check out the latest updates and free resources from Allnova.
         </p>
       </div>

@@ -30,10 +30,10 @@ const ElevateSection = () => {
         </div>
         {/* Right: Texts */}
         <div className='flex-1 flex flex-col justify-center w-full'>
-          <h2 className='font-bold mb-4' style={{ fontSize: "36px" }}>
+          <h2 className='text-xl md:text-3xl lg:text-[36px] font-bold mb-4'>
             Elevate Your Workflow with Allnovas.
           </h2>
-          <p className='text-gray-500 mb-8' style={{ fontSize: "20px" }}>
+          <p className='text-gray-500 text-base md:text-[20px] lg:text-[20px] mb-8'>
             Here’s how Allnovas can help you do what you do
           </p>
           <div className='space-y-6 sm:space-y-8'>

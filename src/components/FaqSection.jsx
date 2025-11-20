@@ -97,7 +97,7 @@ const FaqSection = () => {
       {/* Heading with absolute image */}
       <div className='relative mb-10'>
         <h2
-          className='text-3xl md:text-[36px] font-bold text-center relative lg:mb-8'
+          className='text-xl md:text-3xl lg:text-[36px] font-bold text-center relative lg:mb-8'
           style={{ color: "#0F0F0F" }}
         >
           Frequently asked questions
@@ -109,7 +109,7 @@ const FaqSection = () => {
           />
         </h2>
         <p
-          className='mt-3 text-[20px] text-center'
+          className='mt-3 text-base md:text-[20px] lg:text-[20px] text-center'
           style={{ color: "#4B4B4B" }}
         >
           These are the commonly asked questions on Allnovas. Still have some

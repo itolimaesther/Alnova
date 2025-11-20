@@ -4,7 +4,6 @@ import settingsIcon from "../assets/settings.svg";
 import processorIcon from "../assets/processor.svg";
 import shieldIcon from "../assets/shield-tick.svg";
 
-
 const icons = [processorIcon, settingsIcon, shieldIcon];
 
 const cardData = [
@@ -35,19 +34,13 @@ const MissionSection = () => {
         Our Mission
       </span>
       {/* Heading */}
-      <h2
-        className='font-bold text-center mb-2 w-full'
-        style={{ fontSize: "36px" }}
-      >
+      <h2 className='text-xl md:text-3xl lg:text-[36px] font-bold text-center mb-2 w-full'>
         Building A Trusted Ecosystem Where
         <br className='hidden sm:inline' />
         Talents Thrive And Opportunities Grow
       </h2>
       {/* Semi-heading */}
-      <p
-        className='text-gray-500 text-center mb-10 max-w-2xl mx-auto w-full'
-        style={{ fontSize: "20px" }}
-      >
+      <p className='text-gray-500 text-base md:text-[20px] lg:text-[20px] text-center mb-10 max-w-2xl mx-auto w-full'>
         Secured payments, verified talents and transparent projects
       </p>
       {/* Cards */}

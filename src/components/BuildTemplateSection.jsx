@@ -101,7 +101,7 @@ const BuildTemplateSection = () => {
   return (
     <section className='relative w-full py-16 px-4 md:px-12 lg:px-[100px] bg-black'>
       <div className='relative flex flex-col items-center'>
-        <h2 className='text-xl md:text-3xl font-bold text-center mb-2 text-white inline-block relative'>
+        <h2 className='text-xl md:text-3xl lg:text-[36px] font-bold text-center mb-2 text-white inline-block relative'>
           Build Templates. Download Free. Grow Together
           {/* Down arrow absolutely at end of heading */}
           <img

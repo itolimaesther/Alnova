@@ -54,7 +54,7 @@ const Footer = () => {
       {/* Second row: 5 columns of links */}
       <div className='grid grid-cols-2 md:grid-cols-5 gap-6 mb-8'>
         <div>
-          <h3 className='font-semibold mb-2 text-[#0F0F0F] text-xs'>
+          <h3 className='font-semibold mb-2 text-[#0F0F0F] text-sm'>
             Categories
           </h3>
           <ul className='space-y-1 text-base'>
@@ -141,7 +141,7 @@ const Footer = () => {
           </ul>
         </div>
         <div>
-          <h3 className='font-semibold mb-2 text-[#0F0F0F] text-xs'>Company</h3>
+          <h3 className='font-semibold mb-2 text-[#0F0F0F] text-sm'>Company</h3>
           <ul className='space-y-1 text-sm'>
             <li>
               <a
@@ -178,7 +178,7 @@ const Footer = () => {
           </ul>
         </div>
         <div>
-          <h3 className='font-semibold mb-2 text-[#0F0F0F] text-xs'>
+          <h3 className='font-semibold mb-2 text-[#0F0F0F] text-sm'>
             Resources
           </h3>
           <ul className='space-y-1 text-sm'>
@@ -217,7 +217,7 @@ const Footer = () => {
           </ul>
         </div>
         <div>
-          <h3 className='font-semibold mb-2 text-[#0F0F0F] text-xs'>Legal</h3>
+          <h3 className='font-semibold mb-2 text-[#0F0F0F] text-sm'>Legal</h3>
           <ul className='space-y-1 text-sm'>
             <li>
               <a
@@ -254,7 +254,7 @@ const Footer = () => {
           </ul>
         </div>
         <div>
-          <h3 className='font-semibold mb-2 text-[#0F0F0F] text-xs'>Contact</h3>
+          <h3 className='font-semibold mb-2 text-[#0F0F0F] text-sm'>Contact</h3>
           <ul className='space-y-1 text-sm'>
             <li>
               <a

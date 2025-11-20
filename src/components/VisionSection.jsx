@@ -53,10 +53,7 @@ const VisionSection = () => {
           Specialized Niches
         </span>
         <div className='relative w-full flex justify-center'>
-          <h2
-            className='font-bold text-center mb-8 w-full'
-            style={{ fontSize: "36px" }}
-          >
+          <h2 className='text-xl md:text-3xl lg:text-[36px] font-bold text-center mb-8 w-full'>
             Your vision, Our niche
           </h2>
           {/* line-cap absolutely at top right of heading */}
@@ -66,10 +63,7 @@ const VisionSection = () => {
             className='absolute right-102 -top-14 w-16 h-16 md:w-20 md:h-20 z-10'
           />
         </div>
-        <p
-          className='text-gray-500 mb-6 max-w-md text-center w-full'
-          style={{ fontSize: "20px" }}
-        >
+        <p className='text-gray-500 text-base md:text-[20px] lg:text-[20px] mb-6 max-w-md text-center w-full'>
           We connect clients with high-end freelancers across these categories
         </p>
       </div>

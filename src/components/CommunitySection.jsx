@@ -12,7 +12,7 @@ const CommunitySection = () => (
         <span className='text-base text-[#6A0DAD] font-semibold mb-2'>
           Tribe
         </span>
-        <h2 className='text-lg sm:text-xl md:text-[36px] font-bold mb-2 inline-block relative pr-12'>
+        <h2 className='text-xl md:text-3xl lg:text-[36px] font-bold mb-2 inline-block relative pr-12'>
           Unlock Your Full Potential Using Our Community
           {/* Absolutely positioned com svg at end of heading */}
           <img
@@ -21,7 +21,7 @@ const CommunitySection = () => (
             className='absolute right-6 top-1/12 -translate-y-1/2 w-12 h-10 md:w-20 md:h-16'
           />
         </h2>
-        <p className='text-base md:text-[20px] text-gray-500 mb-6 max-w-md'>
+        <p className='text-base md:text-[20px] lg:text-[20px] text-gray-500 mb-6 max-w-md'>
           Connect, learn, and grow with like-minded individuals and experts from
           around the world.
         </p>

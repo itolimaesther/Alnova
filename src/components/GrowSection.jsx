@@ -108,10 +108,10 @@ const RegisterForFreeResourcesButton = () => {
 
 const GrowSection = () => (
   <section className='w-full py-12 px-4 md:px-8 lg:px-[100px] bg-white'>
-    <h2 className='text-lg sm:text-xl md:text-3xl font-bold mb-2 text-center'>
+    <h2 className='text-xl md:text-3xl lg:text-[36px] font-bold mb-2 text-center'>
       Grow Your Skills With Free Resources From Allnovas
     </h2>
-    <p className='text-sm md:text-md text-gray-500 mb-8 text-center'>
+    <p className='text-base md:text-[20px] lg:text-[20px] text-gray-500 mb-8 text-center'>
       Positioning tech experts to grow with carefully curated tutorials,
       templates and ebooks
     </p>
