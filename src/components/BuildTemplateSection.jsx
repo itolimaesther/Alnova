@@ -143,7 +143,7 @@ const BuildTemplateSection = () => {
                 <img
                   src={img}
                   alt={`Secondary ${idx + 1}`}
-                  className='w-5/6 h-full object-cover rounded-2xl pt-2 sm:pt-4 pl-0'
+                  className='w-80 h-full object-cover rounded-2xl pt-2 sm:pt-4 pl-0'
                 />
               </div>
             ))}

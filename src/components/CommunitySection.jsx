@@ -35,7 +35,7 @@ const CommunitySection = () => (
             <img
               src={community}
               alt='community'
-              className='w-24 h-10 md:w-36 md:h-12 mb-2'
+              className='w-24 md:w-36 h-auto max-h-10 md:max-h-12 object-contain mb-2'
             />
           </div>
           {/* 2nd column: users */}
